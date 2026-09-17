@@ -1,0 +1,539 @@
+<!doctype html>
+<!--
+  PayBeacon — trang Hỗ trợ (Support URL của App Store Connect)
+  APP_FACTORY_X · app 009 · com.appfactoryx.paybeacon
+
+  Apple đòi trang này phải dẫn tới thông tin liên hệ THẬT, nên địa chỉ email phải ở lại.
+  Tiếng Việt là ngôn ngữ mặc định của trang (khách hàng mục tiêu), tiếng Anh là bản thứ hai.
+
+  CẦN SỬA TRƯỚC KHI PUBLISH:
+    1. Email liên hệ — tìm  lotuslongho@gmail.com  nếu muốn dùng địa chỉ khác.
+    2. Ngày cập nhật — tìm  2026-09-12
+  File tự chứa, không tải tài nguyên ngoài.
+-->
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PayBeacon — Hỗ trợ</title>
+<meta name="description" content="Hỗ trợ và liên hệ cho PayBeacon, ứng dụng iPhone theo dõi các gói đăng ký. Không tài khoản, không máy chủ, chạy được khi không có mạng.">
+<style>
+  :root{
+    --bg:#fbfaf8; --card:#ffffff; --ink:#1b1a19; --muted:#6b6862;
+    --line:#e7e3dc; --accent:#0B5730; --accent-soft:#eaf4ee;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#17181a; --card:#1f2124; --ink:#eceae6; --muted:#a3a09a;
+      --line:#2e3134; --accent:#7BE0A8; --accent-soft:#1d2c24;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    padding:0 20px 80px;
+  }
+  .wrap{max-width:720px;margin:0 auto}
+  header{padding:52px 0 4px}
+  .eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h1{font-size:34px;line-height:1.15;margin:0 0 10px;letter-spacing:-.02em}
+  .tagline{font-size:18px;color:var(--muted);margin:0}
+  nav.langs{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 34px;padding:0}
+  nav.langs button{
+    font:inherit;font-size:14px;cursor:pointer;
+    background:var(--card);color:var(--muted);
+    border:1px solid var(--line);border-radius:999px;padding:6px 14px;
+  }
+  nav.langs button[aria-current="true"]{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);font-weight:600}
+  h2{font-size:20px;margin:40px 0 12px;letter-spacing:-.01em}
+  h3{font-size:16px;margin:0 0 6px}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px;padding-left:22px}
+  li{margin:0 0 7px}
+  a{color:var(--accent)}
+  code{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:14px}
+  .lead{font-size:17px}
+  .contact{
+    background:var(--accent-soft);border:1px solid var(--accent);border-radius:var(--radius);
+    padding:22px 24px;margin:0 0 10px;
+  }
+  .contact h2{margin:0 0 8px;color:var(--accent);font-size:19px}
+  .contact .mail{font-size:20px;font-weight:600;display:inline-block;margin:2px 0 12px;word-break:break-all}
+  .contact p:last-child{margin-bottom:0}
+  .qa{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:0 0 12px}
+  .qa p:last-child{margin-bottom:0}
+  .meta{display:flex;flex-wrap:wrap;gap:8px 26px;padding:0;margin:0 0 14px;list-style:none;color:var(--muted);font-size:14px}
+  .meta li{margin:0}
+  footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+  footer a{color:var(--muted)}
+  [data-lang]{display:none}
+  [data-lang].on{display:block}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">APP_FACTORY_X</p>
+  <h1>PayBeacon</h1>
+  <p class="tagline" data-t="tagline">Hỗ trợ và liên hệ</p>
+</header>
+
+<nav class="langs" aria-label="Language">
+  <button data-go="vi" aria-current="true">Tiếng Việt</button>
+  <button data-go="en">English</button>
+  <button data-go="zh">简体中文</button>
+  <button data-go="fr">Français</button>
+  <button data-go="pt">Português</button>
+</nav>
+
+<!-- ══════════════════════════ TIẾNG VIỆT ══════════════════════════ -->
+<main data-lang="vi" class="on">
+
+  <div class="contact">
+    <h2>Liên hệ</h2>
+    <a class="mail" href="mailto:lotuslongho@gmail.com">lotuslongho@gmail.com</a>
+    <p>Thắc mắc, trục trặc, hay ý tưởng — viết bằng tiếng Việt hoặc tiếng Anh đều được. Thường trả lời trong vài ngày.</p>
+    <p>Nếu có gì chạy sai, gửi kèm những thứ này sẽ giúp ích: dòng máy iPhone, phiên bản iOS, phiên bản ứng dụng ở <strong>Cài đặt → Giới thiệu</strong>, và ngôn ngữ bạn đang dùng.</p>
+  </div>
+
+  <h2>Ứng dụng này là gì</h2>
+  <p>PayBeacon cộng lại tất cả các gói đăng ký bạn đang trả tiền — phim, nhạc, công cụ AI, lưu trữ đám mây, phòng gym — xếp theo số tiền từ cao xuống thấp, và cho bạn thấy một con số: tổng mỗi tháng, và số đó thành bao nhiêu trong một năm. Với từng gói, bạn chọn một trong bốn: Giữ, Tạm dừng, Huỷ, hoặc Xem sau.</p>
+  <ul class="meta">
+    <li>iPhone · iOS 17 trở lên</li>
+    <li>Miễn phí · không mua trong ứng dụng</li>
+    <li>Tiếng Việt · English · 简体中文 · Français · Português</li>
+  </ul>
+
+  <h2>Câu hỏi thường gặp</h2>
+
+  <div class="qa">
+    <h3>Có cần tài khoản không?</h3>
+    <p>Không. Không đăng ký, không đăng nhập, không máy chủ. Dùng được ngay từ lần mở đầu tiên.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Ứng dụng có tự tìm ra các gói tôi đang trả không?</h3>
+    <p>Không, và đây là lựa chọn có chủ đích. Ứng dụng không kết nối ngân hàng, không đọc email, không đọc tin nhắn. Bạn nhập từng gói, và khi gõ tên dịch vụ thì một danh mục hơn 150 dịch vụ quen thuộc sẽ gợi ý sẵn chu kỳ và giá tham khảo để bạn sửa lại cho đúng.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Bấm “Huỷ” trong ứng dụng có huỷ thật không?</h3>
+    <p><strong>Không.</strong> Không ứng dụng nào của bên thứ ba làm được việc đó. Đánh dấu “Huỷ” chỉ ghi lại quyết định của bạn và ngừng cộng khoản đó vào tổng. Muốn dừng thật thì mở màn hình chi tiết của gói đó: có sẵn liên kết tới trang tài khoản của dịch vụ (khi danh mục biết trang đó), và liên kết tới mục Đăng ký của App Store — nơi huỷ mọi gói bạn đã đăng ký trên iPhone.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Không có mạng thì dùng được không?</h3>
+    <p>Được, hoàn toàn, kể cả lần mở đầu tiên. Ứng dụng không chứa một dòng mã mạng nào. Các liên kết “huỷ tại dịch vụ” mở Safari — đó là trình duyệt của bạn kết nối, không phải ứng dụng.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Vì sao không đổi được đơn vị tiền sau khi đã thêm gói?</h3>
+    <p>Vì ứng dụng không bao giờ quy đổi. Nó không có tỷ giá và không được phép đi lấy tỷ giá. Đổi đơn vị tiền khi đang có gói trong danh sách chỉ là dán nhãn khác lên cùng những con số cũ — tức là quy đổi với tỷ giá 1. Bạn chọn đơn vị tiền một lần, lúc thêm gói đầu tiên.</p>
+    <p>Cũng vì vậy, giá gợi ý từ danh mục (bằng đô la Mỹ) chỉ được điền sẵn khi đơn vị tiền của bạn đúng là USD. Ở mọi đơn vị khác, ô giá để trống cho bạn tự nhập.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Nhắc trước ngày gia hạn hoạt động thế nào?</h3>
+    <p>Bật ở <strong>Cài đặt → Thông báo</strong>, chọn nhắc trước bao nhiêu ngày. Thông báo do chính iPhone của bạn lên lịch và hiện ra; không có máy chủ nào gửi gì cả.</p>
+    <p>Nếu bạn từ chối quyền thông báo, phần còn lại của ứng dụng vẫn chạy bình thường — chỉ mất phần nhắc.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Con số “đã tiết kiệm” tính từ đâu?</h3>
+    <p>Từ những lần trừ tiền đã <em>không</em> xảy ra. Khi bạn Tạm dừng hoặc Huỷ một gói, ứng dụng đếm những lần đáng lẽ bị trừ kể từ ngày đó tới hôm nay, theo đúng giá bạn đã nhập. Huỷ một gói tháng ngay trước ngày gia hạn thì sáng hôm sau con số tăng đúng một lần trừ tiền, không phải cả năm.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Dữ liệu của tôi nằm ở đâu, và xoá thế nào?</h3>
+    <p>Trên iPhone của bạn, không ở đâu khác. <strong>Cài đặt → Dữ liệu của bạn → Xuất dữ liệu của tôi</strong> cho bạn xem đúng những gì ứng dụng đang lưu. <strong>Đặt lại ứng dụng</strong> xoá sạch. Xoá ứng dụng cũng vậy.</p>
+    <p>Chi tiết: <a href="privacy.html">Chính sách riêng tư</a>.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Giá trong danh mục có chính xác không?</h3>
+    <p>Đó là giá niêm yết tham khảo tại thời điểm dựng ứng dụng, và giá thì thay đổi. Chúng chỉ để điền sẵn cho nhanh — con số được cộng vào tổng luôn là con số bạn xác nhận.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Có bản iPad hay Android không?</h3>
+    <p>Hiện chưa. Phiên bản 1.0 là ứng dụng iPhone, màn hình dọc, có chủ đích.</p>
+  </div>
+
+  <h2>Báo lỗi</h2>
+  <p>Gửi email tới địa chỉ trên, kể rõ bạn thấy gì và bạn mong đợi gì. Ảnh chụp màn hình rất giúp ích. Nếu một ngôn ngữ chạy khác ngôn ngữ kia, xin nói rõ ngôn ngữ nào.</p>
+
+</main>
+
+<!-- ══════════════════════════ ENGLISH ══════════════════════════ -->
+<main data-lang="en">
+
+  <div class="contact">
+    <h2>Get in touch</h2>
+    <a class="mail" href="mailto:lotuslongho@gmail.com">lotuslongho@gmail.com</a>
+    <p>Questions, problems, or ideas — write in English or Vietnamese. Replies usually come within a few days.</p>
+    <p>If something went wrong, it helps to include: your iPhone model, your iOS version, the app version shown in <strong>Settings → About</strong>, and the language you were using.</p>
+  </div>
+
+  <h2>What this app is</h2>
+  <p>PayBeacon adds up everything you pay for every month — streaming, music, AI tools, cloud storage, the gym — sorts it from most expensive to least, and shows you one number: the monthly total, and what it comes to over a year. For each subscription you pick one of four answers: Keep, Pause, Cancel, or Later.</p>
+  <ul class="meta">
+    <li>iPhone · iOS 17 and later</li>
+    <li>Free · no in-app purchases</li>
+    <li>English · Tiếng Việt · 简体中文 · Français · Português</li>
+  </ul>
+
+  <h2>Common questions</h2>
+
+  <div class="qa">
+    <h3>Do I need an account?</h3>
+    <p>No. There is no sign-up, no login and no server. Everything works from the first launch.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Does the app find my subscriptions for me?</h3>
+    <p>No, and that is deliberate. It never connects to your bank, never reads your email, never reads your messages. You enter each subscription yourself, and as you type a name a catalog of more than 150 familiar services offers the billing cycle and a reference price for you to correct.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Does tapping “Cancel” in the app actually cancel it?</h3>
+    <p><strong>No.</strong> No third-party app can do that. Marking something Cancel records your decision and stops counting it in your total. To stop it for real, open that subscription's detail screen: it links to the service's own account page when the catalog knows one, and always to the App Store's subscriptions page, which is where anything bought on your iPhone is cancelled.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Does it work without internet?</h3>
+    <p>Yes, completely, including on the first launch. The app contains no networking code at all. The “cancel at the service” links open Safari — that is your browser connecting, not the app.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Why can't I change the currency after adding a subscription?</h3>
+    <p>Because the app never converts. It has no exchange rate and is forbidden from fetching one. Changing the currency while subscriptions exist would relabel the same numbers — a conversion at a rate of 1. You pick the currency once, when you add your first subscription.</p>
+    <p>For the same reason, the catalog's reference prices (US dollars) are only filled in when your currency is USD. In any other currency the price field starts empty.</p>
+  </div>
+
+  <div class="qa">
+    <h3>How do renewal reminders work?</h3>
+    <p>Turn them on in <strong>Settings → Notifications</strong> and choose how many days ahead. Your iPhone schedules and shows them; no server sends anything.</p>
+    <p>If you decline the notification permission, the rest of the app keeps working — you simply get no reminders.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Where does the “saved so far” figure come from?</h3>
+    <p>From charges that did <em>not</em> happen. When you Pause or Cancel something, the app counts the charges that would have occurred between that day and today, at the price you entered. Cancel a monthly plan the day before it renews and the figure grows by one charge the next morning — not by a year.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Where is my data, and how do I delete it?</h3>
+    <p>On your iPhone, and nowhere else. <strong>Settings → Your data → Export my data</strong> shows you everything the app has stored. <strong>Reset the app</strong> erases all of it. Deleting the app does the same.</p>
+    <p>Full detail: <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Are the catalog prices accurate?</h3>
+    <p>They are reference list prices as of the day the app was built, and prices change. They exist only to save you typing — the number added to your total is always the one you confirmed.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Is there an iPad or Android version?</h3>
+    <p>Not at present. Version 1.0 is an iPhone app, in portrait, on purpose.</p>
+  </div>
+
+  <h2>Reporting a problem</h2>
+  <p>Email the address above with what you saw and what you expected. Screenshots help. If the app behaved differently in one language than another, please say which.</p>
+
+</main>
+
+<!-- ══════════════════════════ 简体中文 ══════════════════════════ -->
+<main data-lang="zh">
+
+  <div class="contact">
+    <h2>联系方式</h2>
+    <a class="mail" href="mailto:lotuslongho@gmail.com">lotuslongho@gmail.com</a>
+    <p>有疑问、遇到问题或有建议，用中文、英文或越南文写信都可以。通常几天内回复。</p>
+    <p>如果出了问题，请一并告诉我们：iPhone 机型、iOS 版本、<strong>设置 → 关于</strong>里显示的应用版本，以及你当时使用的语言。</p>
+  </div>
+
+  <h2>这个应用是什么</h2>
+  <p>PayBeacon 把你每月付费的订阅全部加起来——影视、音乐、AI 工具、云存储、健身房——按金额从高到低排列，并给出一个数字：每月总额，以及一年下来是多少。对每一项订阅，你只需从四个答案里选一个：保留、暂停、取消，或以后再说。</p>
+  <ul class="meta">
+    <li>iPhone · iOS 17 及以上</li>
+    <li>免费 · 无应用内购买</li>
+    <li>简体中文 · Tiếng Việt · English · Français · Português</li>
+  </ul>
+
+  <h2>常见问题</h2>
+
+  <div class="qa">
+    <h3>需要注册账号吗？</h3>
+    <p>不需要。没有注册、没有登录、没有服务器。第一次打开就能用。</p>
+  </div>
+
+  <div class="qa">
+    <h3>应用会自动找出我的订阅吗？</h3>
+    <p>不会，这是刻意的设计。它不连接银行、不读取邮件、不读取短信。订阅由你自己录入；输入名称时，一个收录了 150 多项常见服务的目录会给出计费周期和参考价格，供你修改。</p>
+  </div>
+
+  <div class="qa">
+    <h3>在应用里点“取消”会真的取消吗？</h3>
+    <p><strong>不会。</strong>任何第三方应用都做不到。标记为“取消”只是记录你的决定，并把它从总额里剔除。要真正停掉，请打开该订阅的详情页：如果目录里有该服务的账户页面，会提供链接；另外始终提供 App Store 订阅管理页面的链接——在 iPhone 上订阅的项目都在那里取消。</p>
+  </div>
+
+  <div class="qa">
+    <h3>没有网络能用吗？</h3>
+    <p>完全可以，第一次打开也可以。应用里没有任何联网代码。“到服务方取消”的链接会打开 Safari——那是你的浏览器在联网，不是应用。</p>
+  </div>
+
+  <div class="qa">
+    <h3>添加订阅后为什么不能更改货币？</h3>
+    <p>因为应用从不换算货币。它没有汇率，也不允许去获取汇率。列表里已有订阅时更换货币，等于给同样的数字换个标签，也就是按 1:1 的汇率换算。货币在你添加第一项订阅时选定一次。</p>
+    <p>同理，目录里的参考价格（美元）只有在你的货币就是美元时才会自动填入。其他货币下，价格栏留空由你填写。</p>
+  </div>
+
+  <div class="qa">
+    <h3>续费提醒是怎么工作的？</h3>
+    <p>在<strong>设置 → 通知</strong>里开启，并选择提前几天。提醒由你的 iPhone 自行安排和显示，没有任何服务器参与。</p>
+    <p>如果你拒绝通知权限，应用其余部分照常使用，只是不会有提醒。</p>
+  </div>
+
+  <div class="qa">
+    <h3>“已省下”的数字怎么算出来的？</h3>
+    <p>来自那些<em>没有发生</em>的扣费。当你暂停或取消一项订阅后，应用会按你输入的价格，统计从那天起到今天本该发生的扣费次数。在月度订阅续费前一天取消，第二天早上这个数字只会增加一次扣费，而不是一整年。</p>
+  </div>
+
+  <div class="qa">
+    <h3>我的数据在哪里？怎么删除？</h3>
+    <p>在你的 iPhone 上，不在别处。<strong>设置 → 你的数据 → 导出我的数据</strong>会显示应用保存的全部内容。<strong>重置应用</strong>会清空它们，删除应用也一样。</p>
+    <p>详见：<a href="privacy.html">隐私政策</a>。</p>
+  </div>
+
+  <div class="qa">
+    <h3>目录里的价格准确吗？</h3>
+    <p>那是应用构建当天的参考标价，而价格会变。它们只是为了少打几个字——计入总额的始终是你确认过的数字。</p>
+  </div>
+
+  <div class="qa">
+    <h3>有 iPad 版或安卓版吗？</h3>
+    <p>目前没有。1.0 版就是一款竖屏的 iPhone 应用，这是刻意的。</p>
+  </div>
+
+  <h2>报告问题</h2>
+  <p>发邮件到上面的地址，说明你看到了什么、你期待的是什么。截图很有帮助。如果某种语言下的表现与其他语言不同，请注明是哪一种。</p>
+
+</main>
+
+<!-- ══════════════════════════ FRANÇAIS ══════════════════════════ -->
+<main data-lang="fr">
+
+  <div class="contact">
+    <h2>Nous écrire</h2>
+    <a class="mail" href="mailto:lotuslongho@gmail.com">lotuslongho@gmail.com</a>
+    <p>Questions, problèmes ou idées — écrivez en français, en anglais ou en vietnamien. La réponse arrive généralement en quelques jours.</p>
+    <p>Si quelque chose n'a pas fonctionné, précisez : votre modèle d'iPhone, votre version d'iOS, la version de l'app indiquée dans <strong>Réglages → À propos</strong>, et la langue que vous utilisiez.</p>
+  </div>
+
+  <h2>Ce qu'est cette application</h2>
+  <p>PayBeacon additionne tout ce que vous payez chaque mois — vidéo, musique, outils d'IA, stockage en ligne, salle de sport — classe le tout du plus cher au moins cher, et affiche un seul chiffre : le total mensuel, et ce qu'il représente sur un an. Pour chaque abonnement, vous choisissez l'une de quatre réponses : Garder, Suspendre, Résilier ou Plus tard.</p>
+  <ul class="meta">
+    <li>iPhone · iOS 17 et versions ultérieures</li>
+    <li>Gratuit · aucun achat intégré</li>
+    <li>Français · Tiếng Việt · English · 简体中文 · Português</li>
+  </ul>
+
+  <h2>Questions fréquentes</h2>
+
+  <div class="qa">
+    <h3>Faut-il un compte ?</h3>
+    <p>Non. Aucune inscription, aucune connexion, aucun serveur. Tout fonctionne dès le premier lancement.</p>
+  </div>
+
+  <div class="qa">
+    <h3>L'app trouve-t-elle mes abonnements toute seule ?</h3>
+    <p>Non, et c'est délibéré. Elle ne se connecte jamais à votre banque, ne lit ni vos e-mails ni vos messages. Vous saisissez chaque abonnement ; pendant que vous tapez un nom, un catalogue de plus de 150 services courants propose la périodicité et un prix de référence que vous corrigez.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Toucher « Résilier » dans l'app résilie-t-il vraiment ?</h3>
+    <p><strong>Non.</strong> Aucune application tierce ne peut le faire. Marquer « Résilier » enregistre votre décision et retire la somme du total. Pour arrêter réellement, ouvrez la fiche de l'abonnement : elle renvoie vers la page de compte du service lorsque le catalogue la connaît, et toujours vers la page des abonnements de l'App Store, où se résilie tout ce qui a été souscrit sur votre iPhone.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Fonctionne-t-elle sans connexion ?</h3>
+    <p>Entièrement, y compris au premier lancement. L'app ne contient aucun code réseau. Les liens « résilier chez le service » ouvrent Safari — c'est votre navigateur qui se connecte, pas l'app.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Pourquoi la devise n'est-elle plus modifiable après un premier abonnement ?</h3>
+    <p>Parce que l'app ne convertit jamais. Elle n'a pas de taux de change et il lui est interdit d'en chercher un. Changer de devise alors que la liste n'est pas vide reviendrait à réétiqueter les mêmes montants — une conversion au taux de 1. La devise se choisit une fois, au premier abonnement ajouté.</p>
+    <p>Pour la même raison, les prix de référence du catalogue (en dollars américains) ne sont préremplis que si votre devise est le dollar. Dans toute autre devise, le champ reste vide.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Comment fonctionnent les rappels ?</h3>
+    <p>Activez-les dans <strong>Réglages → Notifications</strong> et choisissez le nombre de jours d'avance. C'est votre iPhone qui les programme et les affiche ; aucun serveur n'intervient.</p>
+    <p>Si vous refusez l'autorisation de notification, le reste de l'app continue de fonctionner — vous n'aurez simplement pas de rappels.</p>
+  </div>
+
+  <div class="qa">
+    <h3>D'où vient le montant « économisé » ?</h3>
+    <p>Des prélèvements qui n'ont <em>pas</em> eu lieu. Quand vous suspendez ou résiliez, l'app compte les prélèvements qui auraient dû survenir depuis ce jour-là jusqu'à aujourd'hui, au prix que vous avez saisi. Résiliez un abonnement mensuel la veille de son renouvellement et le montant augmente d'un prélèvement le lendemain — pas d'une année.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Où sont mes données, et comment les supprimer ?</h3>
+    <p>Sur votre iPhone, et nulle part ailleurs. <strong>Réglages → Vos données → Exporter mes données</strong> vous montre tout ce que l'app conserve. <strong>Réinitialiser l'app</strong> efface l'ensemble. Supprimer l'app fait de même.</p>
+    <p>Détail complet : <a href="privacy.html">Politique de confidentialité</a>.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Les prix du catalogue sont-ils exacts ?</h3>
+    <p>Ce sont des prix affichés au moment de la fabrication de l'app, et les prix changent. Ils n'existent que pour vous éviter de taper — le montant ajouté à votre total est toujours celui que vous avez confirmé.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Existe-t-il une version iPad ou Android ?</h3>
+    <p>Pas pour l'instant. La version 1.0 est une app iPhone, en portrait, volontairement.</p>
+  </div>
+
+  <h2>Signaler un problème</h2>
+  <p>Écrivez à l'adresse ci-dessus en indiquant ce que vous avez vu et ce que vous attendiez. Les captures d'écran aident. Si le comportement diffère d'une langue à l'autre, précisez laquelle.</p>
+
+</main>
+
+<!-- ══════════════════════════ PORTUGUÊS ══════════════════════════ -->
+<main data-lang="pt">
+
+  <div class="contact">
+    <h2>Contacto</h2>
+    <a class="mail" href="mailto:lotuslongho@gmail.com">lotuslongho@gmail.com</a>
+    <p>Dúvidas, problemas ou ideias — escreva em português, inglês ou vietnamita. A resposta costuma chegar em poucos dias.</p>
+    <p>Se algo correu mal, ajuda indicar: o modelo do iPhone, a versão do iOS, a versão da app em <strong>Definições → Acerca</strong> e o idioma que estava a usar.</p>
+  </div>
+
+  <h2>O que é esta aplicação</h2>
+  <p>A PayBeacon soma tudo o que paga todos os meses — vídeo, música, ferramentas de IA, armazenamento na nuvem, ginásio — ordena do mais caro para o mais barato e mostra um número: o total mensal e aquilo que dá ao fim de um ano. Para cada subscrição escolhe uma de quatro respostas: Manter, Suspender, Cancelar ou Depois.</p>
+  <ul class="meta">
+    <li>iPhone · iOS 17 ou posterior</li>
+    <li>Gratuita · sem compras dentro da app</li>
+    <li>Português · Tiếng Việt · English · 简体中文 · Français</li>
+  </ul>
+
+  <h2>Perguntas frequentes</h2>
+
+  <div class="qa">
+    <h3>É preciso conta?</h3>
+    <p>Não. Não há registo, não há sessão iniciada, não há servidor. Tudo funciona logo no primeiro arranque.</p>
+  </div>
+
+  <div class="qa">
+    <h3>A app descobre as minhas subscrições sozinha?</h3>
+    <p>Não, e é propositado. Nunca se liga ao banco, não lê o correio eletrónico nem as mensagens. É o utilizador que introduz cada subscrição; à medida que escreve o nome, um catálogo com mais de 150 serviços conhecidos sugere a periodicidade e um preço de referência que pode corrigir.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Tocar em «Cancelar» na app cancela mesmo?</h3>
+    <p><strong>Não.</strong> Nenhuma aplicação de terceiros o consegue fazer. Marcar «Cancelar» regista a sua decisão e deixa de contar aquele valor no total. Para parar a sério, abra o detalhe dessa subscrição: há ligação para a página de conta do serviço quando o catálogo a conhece, e sempre para a página de subscrições da App Store, onde se cancela tudo o que foi subscrito no iPhone.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Funciona sem ligação à internet?</h3>
+    <p>Sim, por completo, incluindo no primeiro arranque. A app não contém qualquer código de rede. As ligações «cancelar no serviço» abrem o Safari — é o seu browser a ligar-se, não a app.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Porque não posso mudar a moeda depois de adicionar uma subscrição?</h3>
+    <p>Porque a app nunca converte. Não tem taxa de câmbio e está proibida de ir buscar uma. Mudar a moeda com subscrições na lista seria pôr outro rótulo nos mesmos números — uma conversão à taxa de 1. A moeda escolhe-se uma vez, ao adicionar a primeira subscrição.</p>
+    <p>Pela mesma razão, os preços de referência do catálogo (em dólares americanos) só são preenchidos se a sua moeda for o dólar. Em qualquer outra moeda o campo fica vazio.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Como funcionam os lembretes de renovação?</h3>
+    <p>Ative-os em <strong>Definições → Notificações</strong> e escolha com quantos dias de antecedência. É o próprio iPhone que os agenda e mostra; não há servidor nenhum a enviar seja o que for.</p>
+    <p>Se recusar a permissão de notificações, o resto da app continua a funcionar — apenas não recebe lembretes.</p>
+  </div>
+
+  <div class="qa">
+    <h3>De onde vem o valor «poupado até agora»?</h3>
+    <p>Das cobranças que <em>não</em> aconteceram. Quando suspende ou cancela, a app conta as cobranças que teriam ocorrido desde esse dia até hoje, ao preço que introduziu. Cancele um plano mensal na véspera da renovação e o valor sobe uma cobrança na manhã seguinte — não um ano inteiro.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Onde estão os meus dados e como os apago?</h3>
+    <p>No seu iPhone, e em mais lado nenhum. <strong>Definições → Os seus dados → Exportar os meus dados</strong> mostra tudo o que a app guardou. <strong>Repor a aplicação</strong> apaga tudo. Apagar a app faz o mesmo.</p>
+    <p>Detalhe completo: <a href="privacy.html">Política de Privacidade</a>.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Os preços do catálogo estão certos?</h3>
+    <p>São preços de tabela à data em que a app foi construída, e os preços mudam. Existem só para lhe poupar escrita — o valor somado ao total é sempre o que confirmou.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Há versão para iPad ou Android?</h3>
+    <p>De momento não. A versão 1.0 é uma app para iPhone, na vertical, de propósito.</p>
+  </div>
+
+  <h2>Comunicar um problema</h2>
+  <p>Envie um email para o endereço acima com o que viu e o que esperava. As capturas de ecrã ajudam. Se o comportamento diferiu entre idiomas, diga qual.</p>
+
+</main>
+
+<footer>
+  <p><a href="privacy.html" data-t="privacy">Chính sách riêng tư</a> · <span data-t="updated">Cập nhật lần cuối</span>: 2026-09-12</p>
+  <p>APP_FACTORY_X · Dương Long Hồ</p>
+</footer>
+
+</div>
+<script>
+(function(){
+  var T = {
+    vi:{tagline:"Hỗ trợ và liên hệ", privacy:"Chính sách riêng tư", updated:"Cập nhật lần cuối", lang:"vi", title:"PayBeacon — Hỗ trợ"},
+    en:{tagline:"Support and contact", privacy:"Privacy Policy", updated:"Last updated", lang:"en", title:"PayBeacon — Support"},
+    zh:{tagline:"支持与联系", privacy:"隐私政策", updated:"最后更新", lang:"zh-Hans", title:"PayBeacon — 支持"},
+    fr:{tagline:"Assistance et contact", privacy:"Politique de confidentialité", updated:"Dernière mise à jour", lang:"fr", title:"PayBeacon — Assistance"},
+    pt:{tagline:"Apoio e contacto", privacy:"Política de Privacidade", updated:"Última atualização", lang:"pt", title:"PayBeacon — Apoio"}
+  };
+  var buttons = document.querySelectorAll("nav.langs button");
+  function show(code){
+    if(!T[code]) code = "vi";
+    document.querySelectorAll("[data-lang]").forEach(function(el){
+      el.classList.toggle("on", el.getAttribute("data-lang") === code);
+    });
+    buttons.forEach(function(b){
+      b.setAttribute("aria-current", b.getAttribute("data-go") === code ? "true" : "false");
+    });
+    document.querySelectorAll('[data-t]').forEach(function(el){
+      var k = el.getAttribute("data-t");
+      if(T[code][k]) el.textContent = T[code][k];
+    });
+    document.documentElement.lang = T[code].lang;
+    document.title = T[code].title;
+    try{ localStorage.setItem("sr-lang", code); }catch(e){}
+  }
+  buttons.forEach(function(b){
+    b.addEventListener("click", function(){
+      var c = b.getAttribute("data-go");
+      show(c);
+      history.replaceState(null, "", "#" + c);
+    });
+  });
+  function initial(){
+    var h = (location.hash || "").replace("#","");
+    if(T[h]) return h;
+    try{ var s = localStorage.getItem("sr-lang"); if(T[s]) return s; }catch(e){}
+    var n = (navigator.language || "vi").toLowerCase();
+    if(n.indexOf("vi") === 0) return "vi";
+    if(n.indexOf("zh") === 0) return "zh";
+    if(n.indexOf("fr") === 0) return "fr";
+    if(n.indexOf("pt") === 0) return "pt";
+    if(n.indexOf("en") === 0) return "en";
+    return "vi";
+  }
+  show(initial());
+})();
+</script>
+
+</body>
+</html>
